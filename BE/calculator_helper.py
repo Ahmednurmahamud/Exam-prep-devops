@@ -34,7 +34,7 @@ class CalculatorHelper():
 
     def add(self, a, b):
         result = a + b
-        self.logger.info(f"Adding {a} and {b} results in {result}", extra=self.log_properties)
+        self.logger.info(f"the sum of {a} and {b} results in {result}", extra=self.log_properties)
 
         return result
 
